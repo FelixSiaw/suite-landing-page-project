@@ -1,94 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Suite Landing Page</title>
-  </head>
 
-  <body>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
     <main>
+        <header>
+            <div class="suite">
+                <figure class="suite-logo-box">
+                    <img class="suite-logo" src="assets/logo.svg" alt="logo"  />
+                </figure>
+                <button class="primary-default text">Request Beta Access</button>
+            </div>
+        </header>
 
-      <section class="suite">
+        <section class="hero">
+            <div class="hero-box">
+                <div class="hero-title heading-large">
+                    A <span class="heading-bold"> super solution</span> for your
+                    <span class="heading-bold">business.</span>
+                </div>
 
-        <figure class="suite__logo-box">
-          <img src="assets/logo.svg" alt="" class="suite__logo" />
-        </figure>
+                <div class="hero-box-paragraph">
+                    Our marketing and sales automations help you scale your outreach to
+                    get more leads for your company.
+                </div>
 
-        <button class="secondary-default text">Request Beta Access</button>
+                <button class="secondary-default text">Request Beta Access</button>
+            </div>
 
-      </section>
+            <div class="hero-photo-box">
+                <picture>
+                    <source
+                      media="(max-width:425px)"
+                      srcset="assets/image-hero-landscape.png"
+                    />
+                    <img
+                      src="assets/image-hero-portrait@2x.png"
+                      alt="Image"
+                      class="hero-photo"
+                    />
+                  </picture>
+            </div>
 
-      <section class="hero">
+            <div class="hero-curved-box">
+                <img
+                  src="assets/pattern-curved-line-1.svg"
+                  alt="curved line"
+                  class="hero-curved"
+                />
+            </div>
 
-        <div class="hero__box">
+            <div class="hero-figure-box">
+                <div class="hero-figure-item">
+                  <div class="hero-figure-item-title">2K+</div>
+                  <p class="hero-figure-item-text heading-s">companies</p>
+                </div>
+      
+                <div class="hero-figure-item">
+                  <div class="hero-figure-item-title">8</div>
+                  <p class="hero-figure-item-text heading-s">languages</p>
+                </div>
+      
+                <div class="hero-figure-item">
+                  <div class="hero-figure-item-title">1.2M</div>
+                  <p class="hero-figure-item-text heading-s">leads</p>
+                </div>
+            </div>
+        </section>
 
-          <div class="hero__title heading-r-xl">
-            A<span class="heading-b-xl"> super solution</span> for your
-            <span class="heading-b-xl">business.</span>
-          </div>
-          
-          <div class="hero__box-paragraph">
-            Our marketing and sales automations help you scale your outreach to
-            get more leads for your company.
-          </div>
-
-          <button class="primary-default text">Request Beta Access</button>
-
-        </div>
-
-        <div class="hero__photo-box">
-          <picture>
-            <source
-              media="(max-width:376px)"
-              srcset="assets/image-hero-landscape.png"
-            />
-            <img
-              src="assets/image-hero-portrait@2x.png"
-              alt="Image"
-              class="hero__photo"
-            />
-          </picture>
-        </div>
-
-        <div class="hero__curved-box">
-          <img
-            src="assets/pattern-curved-line-1.svg"
-            alt="curved line"
-            class="hero__curved"
-          />
-
-        </div>
-
-        <div class="hero__figure-box">
-
-          <div class="hero__figure-item">
-            <div class="hero__figure__item-title">2K+</div>
-            <p class="hero__figure__item-text heading-s">companies</p>
-          </div>
-
-          <div class="hero__figure-item">
-            <div class="hero__figure__item-title">8</div>
-            <p class="hero__figure__item-text heading-s">languages</p>
-          </div>
-
-          <div class="hero__figure-item">
-            <div class="hero__figure__item-title">1.2M</div>
-            <p class="hero__figure__item-text heading-s">leads</p>
-          </div>
-
-        </div>
-
-      </section>
-
-      <section class="base">
+        <section class="base">
         <div class="card">
-          <div class="card__container">
-            <div class="card__background-blur">
+          <div class="card-container">
+            <div class="card-background-blur">
 
-              <div class="card__img-box">
+              <div class="card-img-box">
 
                 <picture>
                   <source
@@ -98,7 +89,7 @@
                   <img
                     src="assets/image-jeremy-large@2x.png"
                     alt="Picture of jeremy"
-                    class="card__img"
+                    class="card-img"
                   />
                 </picture>
 
@@ -107,63 +98,65 @@
               <img
                 src="assets/pattern-blur.svg"
                 alt="blur color"
-                class="card__img-blur"
+                class="card-img-blur"
               />
             </div>
 
-            <div class="card__curved-line-box">
+            <div class="card-curved-line-box">
               <img
                 src="assets/pattern-curved-line-2.svg"
                 alt="curved line"
-                class="card__curved-line"
+                class="card-curved-line"
               />
             </div>
 
-            <div class="card__body">
-              <p class="card__title heading-r-l">
-                It just <span class="heading-b-l">works.</span>
+            <div class="card-body">
+              <p class="card-title heading-r-l">
+                It just <span class="heading-bold-large">works.</span>
               </p>
 
-              <p class="card__text quote">
+              <p class="card-text quote">
                 “I really like how it is an all-in-one solution that handle many
                 of the tasks that you would normally need separate tools to do
                 the same job. This thing is a miracle worker.”
               </p>
 
-              <div class="card__profile">
-                <div class="card__profile-name heading-m mb">
+              <div class="card-profile">
+                <div class="card-profile-name heading-m mb">
                   jeremy robinson
                 </div>
 
-                <div class="card__profile-p heading-s mb">CMO. FYLO</div>
+                <div class="card-profile-p heading-s mb">CMO. FYLO</div>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="base__box">
-          <div class="base__img-box">
-            <img src="assets/logo.svg" alt="" class="suite__logo" />
+        <div class="base-box">
+          <div class="base-img-box">
+            <img src="assets/logo.svg" alt="" class="suite-logo" />
           </div>
 
-          <div class="base__copyright text-s">Copyright - Suite</div>
+          <div class="base-copyright text-s">Copyright - Suite</div>
 
-          <div class="base__links-box">
+          <div class="base-links-box">
 
-            <div class="base__links-item">
+            <div class="base-links-item">
               <img src="assets/icon-facebook.svg" alt="Facebook icon" />
             </div>
 
-            <div class="base__links-item">
+            <div class="base-links-item">
               <img src="assets/icon-twitter.svg" alt="Twitter icon" />
             </div>
             
-            <div class="base__links-item">
+            <div class="base-links-item">
               <img src="assets/icon-instagram.svg" alt="Instagram icon" />
             </div>
           </div>
-        </div>
+            </div>
       </section>
+
     </main>
-  </body>
+    
+</body>
 </html>
